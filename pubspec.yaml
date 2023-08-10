@@ -1,0 +1,40 @@
+name: bill_splitter
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.1
+  fluttertoast: ^8.2.2
+  intl: ^0.18.1
+  shared_preferences: ^2.2.0
+  sqflite: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+
+flutter_native_splash:
+  color: "#3a243b"
+  background_image: "assets/splash/background.jpg"
+  image: "assets/splash/splash.png"
+  android: true
+  ios: true
+  web: false
+
+flutter:
+  uses-material-design: true
